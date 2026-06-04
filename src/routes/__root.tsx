@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "DonerNaSatpayeva" },
+      { name: "description", content: "A stylish website for Doner Delight, showcasing their menu and location." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "DonerNaSatpayeva" },
+      { property: "og:description", content: "A stylish website for Doner Delight, showcasing their menu and location." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "DonerNaSatpayeva" },
+      { name: "twitter:description", content: "A stylish website for Doner Delight, showcasing their menu and location." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/35dbecf1-1d97-4eb5-85d3-0aa325904423/id-preview-a264fa4c--733ff5ad-0e26-4a3b-aa81-bff5b0e1610c.lovable.app-1780606112645.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/35dbecf1-1d97-4eb5-85d3-0aa325904423/id-preview-a264fa4c--733ff5ad-0e26-4a3b-aa81-bff5b0e1610c.lovable.app-1780606112645.png" },
     ],
     links: [
       {
